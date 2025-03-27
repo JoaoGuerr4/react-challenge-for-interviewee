@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+## A DB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Somos especialistas em auxiliar organizações na transformação digital para entender melhor o problema e encontrar as melhores soluções, fazendo a coisa certa do jeito certo. Somos uma empresa de design, construção e sustentação de produtos digitais.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Desafio
 
-### `npm start`
+A Biblioteca DB, enfrenta desafios para gerenciar seu acervo de livros de forma eficiente. Precisamos de uma ferramenta que simplifique o cadastro de novos livros, a visualização do catálogo e o controle de disponibilidade. O objetivo deste desafio é desenvolver o frontend de uma aplicação web que permita aos gestores da Biblioteca DB realizar essas tarefas de forma intuitiva e ágil, garantindo que o acervo esteja sempre organizado e acessível todos os demais colaboradores da DB.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## User Stories
 
-### `npm test`
+### US 1 - Cadastro de livros
+*Eu como gestor da biblioteca </br>
+Quero cadastrar livros no sistema </br>
+Para que a lista de livros da biblioteca esteja sempre atualizada.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### US 2 - Visualização da lista de livros
 
-### `npm run build`
+*Eu como gestor da biblioteca </br>
+Quero visualizar a lista de todos os livros em sequência, com alguns cards horizontalmente, </br>
+Quero visualizar a lista de livros integrado com o backend, </br>
+Para que eu possa consultar as informações dos livros disponíveis de uma forma mais simplificada.*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### US 3 - Marcação de livros como Disponíveis/Emprestados
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Eu como gestor da biblioteca </br>
+Quero marcar um livro como "disponível" ou "emprestado", </br>
+Quero integrar com o backend a disponibilidade dos livros, </br>
+Para que eu possa saber quais estão disponíveis para empréstimo.*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Instruções para live coding:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Para banco de dados, utilize a biblioteca knex com sqlite3

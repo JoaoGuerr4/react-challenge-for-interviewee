@@ -1,0 +1,76 @@
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.content {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+  color: #2c3e50;
+}
+
+.author, .category {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.statusButton {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.statusButton.available {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.statusButton.borrowed {
+  background-color: #f44336;
+  color: white;
+}
+
+.statusButton:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 0.8rem;
+  }
+  
+  .title {
+    font-size: 1rem;
+  }
+  
+  .author, .category {
+    font-size: 0.8rem;
+  }
+}
