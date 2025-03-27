@@ -31,5 +31,3 @@ Para que eu possa saber quais estão disponíveis para empréstimo.*
 
 
 ## Instruções para live coding:
-
-- Para banco de dados, utilize a biblioteca knex com sqlite3
