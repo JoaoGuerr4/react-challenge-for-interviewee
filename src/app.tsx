@@ -1,6 +1,6 @@
-import { BooksProvider } from './books';
-import { RouterProvider } from 'react-router-dom';
-import { router } from './routes';
+import { BooksProvider } from "./books";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
 
 function App() {
   return (
